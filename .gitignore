@@ -1,0 +1,8 @@
+.build/
+.swiftpm/
+DerivedData/
+xcuserdata/
+.DS_Store
+.kaji/
+.claude/
+/shots/

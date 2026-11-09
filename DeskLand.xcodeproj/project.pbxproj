@@ -1,0 +1,258 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45D0768DDA8E6A04D97394AD /* WebContent in Resources */ = {isa = PBXBuildFile; fileRef = 093770B0DB98394F49173B40 /* WebContent */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		92697EA4C621ACE904D96842 /* DeskLand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeskLand.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		093770B0DB98394F49173B40 /* WebContent */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WebContent; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A2838B01B4DE0E0C40487DA9 /* DeskLand */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DeskLand;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6251226416716CF0041BB03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A4798EE4F0DC569D6769EED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92697EA4C621ACE904D96842 /* DeskLand.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B78EE021AB73FFB80D798AD = {
+			isa = PBXGroup;
+			children = (
+				A2838B01B4DE0E0C40487DA9 /* DeskLand */,
+				093770B0DB98394F49173B40 /* WebContent */,
+				2A4798EE4F0DC569D6769EED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C1348AEDD94B39B029212D3 /* DeskLand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5F919589541350BB017B421 /* Build configuration list for PBXNativeTarget "DeskLand" */;
+			buildPhases = (
+				FD41331EAC505B783B77D542 /* Sources */,
+				D6251226416716CF0041BB03 /* Frameworks */,
+				DDC50A8FEEC226B5F5F2EE68 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				A2838B01B4DE0E0C40487DA9 /* DeskLand */,
+			);
+			name = DeskLand;
+			productName = DeskLand;
+			productReference = 92697EA4C621ACE904D96842 /* DeskLand.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C57A13C92E7B1160B802AEF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2720;
+				LastUpgradeCheck = 2720;
+				TargetAttributes = {
+					4C1348AEDD94B39B029212D3 = {
+						CreatedOnToolsVersion = 27.2;
+					};
+				};
+			};
+			buildConfigurationList = 503D2828E929F756477D2F71 /* Build configuration list for PBXProject "DeskLand" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B78EE021AB73FFB80D798AD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 110;
+			productRefGroup = 2A4798EE4F0DC569D6769EED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C1348AEDD94B39B029212D3 /* DeskLand */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDC50A8FEEC226B5F5F2EE68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				45D0768DDA8E6A04D97394AD /* WebContent in Resources */,
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD41331EAC505B783B77D542 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ACD369F635E4AABF8B6602F5 /* Debug configuration for PBXProject "DeskLand" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = T78DK947F2;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				SDKROOT = macosx;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_VERSION = 6.0;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88BE9CBEDE1FC905D026EA94 /* Release configuration for PBXProject "DeskLand" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = T78DK947F2;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				SDKROOT = macosx;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_VERSION = 6.0;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C2F62756CDEF34F38509958A /* Debug configuration for PBXNativeTarget "DeskLand" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DeskLand;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "GPL-3.0. Based on Deskland Preview by the Deskland authors.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.onmyway133.DeskLand;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		2D0EB2684AD8DC07FA345DD4 /* Release configuration for PBXNativeTarget "DeskLand" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DeskLand;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "GPL-3.0. Based on Deskland Preview by the Deskland authors.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.onmyway133.DeskLand;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		503D2828E929F756477D2F71 /* Build configuration list for PBXProject "DeskLand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD369F635E4AABF8B6602F5 /* Debug configuration for PBXProject "DeskLand" */,
+				88BE9CBEDE1FC905D026EA94 /* Release configuration for PBXProject "DeskLand" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		B5F919589541350BB017B421 /* Build configuration list for PBXNativeTarget "DeskLand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2F62756CDEF34F38509958A /* Debug configuration for PBXNativeTarget "DeskLand" */,
+				2D0EB2684AD8DC07FA345DD4 /* Release configuration for PBXNativeTarget "DeskLand" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C57A13C92E7B1160B802AEF2 /* Project object */;
+}
