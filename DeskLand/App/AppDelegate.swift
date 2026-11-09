@@ -17,6 +17,10 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
             SnapshotRunner.shared.run(outputDir: URL(filePath: dir), schemeHandler: schemeHandler)
             return
         }
+        if let dir = ProcessInfo.processInfo.environment["DESKLAND_RECORD"] {
+            RecordRunner.shared.run(outputDir: URL(filePath: dir), schemeHandler: schemeHandler)
+            return
+        }
 
         settings.load()
         themes = Themes.load()
