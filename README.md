@@ -6,9 +6,16 @@ DeskLand is an independent macOS port of [Deskland Preview](https://github.com/B
 
 | Beach | Meadow |
 | --- | --- |
-| ![Beach](docs/beach.jpg) | ![Meadow](docs/meadow.jpg) |
+| [![Beach](docs/beach.jpg)](docs/beach.mp4) | [![Meadow](docs/meadow.jpg)](docs/meadow.mp4) |
+| [Watch the Beach demo](docs/beach.mp4) | [Watch the Meadow demo](docs/meadow.mp4) |
 
 ![Settings](docs/settings.jpg)
+
+## Download
+
+Get `DeskLand.dmg` from the [latest release](https://github.com/onmyway133/DeskLand/releases/latest), open it and drag DeskLand to Applications. The app is signed and notarized by Apple.
+
+On first launch, allow DeskLand in System Settings › Privacy & Security › Accessibility so it can see where your desktop icons are.
 
 ## Features
 
