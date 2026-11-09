@@ -1,0 +1,16 @@
+DeskLand
+Copyright (C) 2026 Khoa Pham
+
+This program is free software: you can redistribute it and/or modify it under the
+terms of the GNU General Public License version 3. See LICENSE.
+
+DeskLand is a macOS port of Deskland Preview (https://github.com/BLEZZ0102/Deskland),
+Copyright (C) 2026 Deskland authors, licensed under GNU GPL version 3.
+
+The files in WebContent/ (theme pages, scripts, images, thumbnails and translations)
+come from upstream commit 9818b577402ff476e1b59da07970c56472713126, directory
+prototype/. Changes: the "autostart" and "autostartBlocked" strings in
+WebContent/i18n/en.json and WebContent/i18n/zh-CN.json now say "launch at login".
+
+The Deskland name and icon are not licensed under the GPL. DeskLand is an independent
+project and is not affiliated with or endorsed by the Deskland authors.
